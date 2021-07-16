@@ -1,0 +1,421 @@
+
+.w{/*版心的公共类 */
+    width: 1190px;
+    margin: 0 auto;
+}
+.fl{
+    float:left
+}
+.fr{
+    float:right
+}
+.f10{
+    color:#f10215 !important
+}
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../fonts/icomoon.eot?l0oyjy');
+    src:  url('fonts/icomoon.eot?l0oyjy#iefix') format('embedded-opentype'),
+      url('../fonts/icomoon.ttf?l0oyjy') format('truetype'),
+      url('../fonts/icomoon.woff?l0oyjy') format('woff'),
+      url('../fonts/icomoon.svg?l0oyjy#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+a{
+text-decoration: none;
+font-size:12px ;
+color:#999;
+}
+a:hover{
+   color: #f10215
+}
+ul,h1,input,p,button,h5,dd,dl,dt{
+    margin: 0;
+    padding: 0;
+}
+input,button{
+    border:0;
+  outline: none;
+}
+ul{
+    list-style: none;
+    
+}
+body{
+    background-color: #f6f6f6
+}
+header{
+    height: 80px;
+    background: #020000;
+}
+.shortcut{
+    height: 30px;
+    line-height:30px;
+    background-color: #e3e4e5;
+    border-bottom: 1px solid #ddd;
+    font-size:12px ;
+    color:#999;
+}
+.city{
+    margin-left: 200px;
+}
+.shortcut li{
+    float:left
+}
+.shortcut i{
+    font-family: "icomoon";
+    font-style:normal;
+    color:#ccc
+}
+.space{
+    width: 1px;
+    height: 10px;
+    background-color: #ccc;
+    margin: 10px 12px 0;
+}
+.mobile{
+    position: relative;
+}
+.mobile img{
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    left:-4px;
+    top:24px;
+    border:1px solid #ccc;
+    padding:3px
+}
+.middle{
+    height: 140px;
+    position: relative;
+}
+.logo{
+    position: absolute;
+    left: 0;
+    top:-30px;
+    box-shadow: 0  -10px 10px  rgba(0, 0,0,0.3);
+}
+.logo a{
+    display: block;
+    height: 170px;
+    width: 190px;
+    background: url(../images/logo.png) no-repeat;
+    background-size: cover;
+}
+.form{
+    width: 550px;
+    height: 35px;
+    position: absolute;
+    top:25px;
+    left:320px;
+}
+.form input{
+    width: 495px;
+    height: 33px;
+    border:1px solid  #f10215;
+    float:left;
+    font-size: 14px;
+}
+.form button{
+    width: 50px;
+    height: 35px;
+    background-color:  #f10215;
+   float:left;
+}
+.form button i{
+    font-family: 'icomoon';
+    font-style: normal;
+    color:#fff
+}
+.shopcar{
+    width: 188px;
+    height: 33px;
+    line-height: 33px;
+    position: absolute;
+    top:25px;
+    right:95px;
+    background-color: #fff;
+    text-align: center;
+    color:#f10215 ;
+    border:1px solid #ccc ;
+}
+.shopcar i{
+    font-family: 'icomoon';
+    font-style: normal;
+    color: #f10215;
+    margin-right: 5px;
+}
+.shopcar a{
+    color: #f10215;
+}
+.shopcar span{
+    color:#fff;
+    background-color: #f10215;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    top: 5px;
+    right:30px;
+    font-size: 12px;
+    line-height: 15px;
+}
+.keywords{
+    position: absolute;
+    top:68px;
+    left:320px;   
+}
+.navitems{
+    position:absolute;
+    bottom:0;
+    left:200px; 
+}
+.navitems li{
+    float: left;
+    margin-left: 20px;
+}
+.navitems a{
+    font-size: 16px;
+    font-weight: 700;
+}
+.navitems .space{
+   margin-top: 4px;
+   margin-left: 10px;
+   margin-right: -10px;
+}
+.super{
+    position: absolute;
+    bottom:10px;
+    right:0
+}
+.footer{
+    height: 500px;
+    margin-top: 35px;
+    background-color: #EAEAEA;
+}
+.service{
+     padding:30px 0;
+     border-bottom: 1px solid #DEDEDE;
+     overflow: hidden;
+}
+.service ul li{
+    width: 297px;
+    height: 43px;
+    position:relative;
+    line-height: 43px;
+    float:left
+}
+.service li h5{
+    position:absolute;
+    left:38px;
+    top:0;
+    background:url(../images/ico.png)  no-repeat;
+    background-size: 113px 86.5px;
+    width: 36px;
+    height: 43px;
+}
+.service li:nth-child(2) h5{
+    background-position: -38px 0;
+}
+.service li:nth-child(3) h5{
+    background-position: -76px 0;
+}
+.service li:nth-child(4) h5{
+    background-position: 0px -42px;
+}
+.service li p{
+    font-weight: 700;
+    margin-left: 82px;
+}
+.mobile-details{
+    height: 700px;
+}
+.mobile-details-first{
+    margin-top: 15px;
+}
+.mobile-details-second-left{
+float:left;
+position:relative;
+}
+.preview_img {
+    position: relative;
+    height: 398px;
+    border: 1px solid #ccc;
+}
+
+.mask {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 300px;
+    background: #FEDE4F;
+    opacity: .5;
+    border: 1px solid #ccc;
+    cursor: move;
+}
+
+.big {
+    display: none;
+    position: absolute;
+    left: 410px;
+    top: 0;
+    width: 500px;
+    height: 500px;
+    background-color: pink;
+    z-index: 999;
+    border: 1px solid #ccc;
+    overflow: hidden;
+}
+
+.bigImg {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.mobile-details-second-right{
+   float: right;
+}
+.mobile-details-second-right h5{ 
+    margin-top:15px;
+    font-size: 16px;
+    height: 30px;
+    font-weight: 700;
+}
+.mobile-details-second-right .news{
+    height: 32px;
+    color:#e12228;
+    font-size:12px
+}
+.mobile-details-second-right .pink{
+    background-color: #fee9eb;
+    width: 718px;
+    font-size :12px;
+}
+.mobile-details-second-right .pink .price{
+    height: 36px;
+    padding:10px 0;
+    font-size :12px;
+    position:relative
+
+}
+.mobile-details-second-right .pink  .price1{
+    padding-left: 15px;
+
+}
+.mobile-details-second-right .pink  .price2{
+    font-size: 24px;
+    color:#e12228;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.mobile-details-second-right .pink  .price3{
+    color:#c81623;
+}
+
+.mobile-details-second-right .pink  .price4{
+    position: absolute;
+    right:10px;
+    margin-top:10px ;
+}
+.mobile-details-second-right .pink .sale{
+    height: 72px;
+    
+}
+
+.mobile-details-second-right .pink .sale .span1{
+    padding-left: 15px;
+
+}
+.help{
+    height: 200px;
+    border-bottom: 1px solid #DEDEDE;
+    padding-top: 25px;
+    box-sizing: border-box;
+}
+.help dl{
+    width: 192px;
+    float:left
+}
+.help dt,
+.cover h5{
+    height: 30px;
+    font-size:14px;
+    color:#666
+}
+.help dd{
+    height: 22px;
+}
+.cover{
+    width: 200px;
+    height: 150px;
+}
+.cover h5{
+    padding-left: 35px;
+}
+.cover p{
+    line-height: 18px;
+    font-size: 12px;
+    color:#666;
+    width: 180px;
+
+}
+.cover a{
+    display: block;
+    margin-top: 5px;
+    width: 180px;
+    text-align: right;
+}
+.copyright{
+    margin-top: 15px;
+    text-align: center;
+    color:#666;
+    font-size: 12px;
+}
+.copyright span{
+    margin:  0 10px;
+    font-size: 12px;
+    color:#666
+}
+.copyright div {
+    margin-top: 10px;
+   line-height: 18px;
+   color:#999999
+}
+.foot-icon{
+    margin-top: 10px;
+}
+.foot-icon a{
+    display: inline-block;
+    width: 15px;
+    height: 12px;
+    background: url(../images/ico.png) no-repeat  -38.5px -44.5px;
+    background-size: 113px 86.5px;
+}
+.foot-icon a:nth-child(2){
+    background-position: -56px -44.5px;
+}
+.foot-icon a:nth-child(3){
+    background-position: -73.5px -44.5px;
+}
+.foot-icon a:nth-child(4){
+    background-position: -38.5px -59px;;
+}
+.foot-icon a:nth-child(5){
+    background-position: -91px -44.5px;
+}
+.foot-icon span{
+    color:#666;
+    margin: 0 15px;
+}
+.end{
+    margin-top: 10px;
+    color:#999999;
+    font-size: 12px;
+}
+
+
+
